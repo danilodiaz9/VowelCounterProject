@@ -1,0 +1,40 @@
+/* * {
+    background-color: rgba(192, 60, 60,.15)
+} */
+
+header {
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.userInput {
+flex-grow: 2;
+border: solid 1px black;
+margin: 5px 5px;
+text-align: center;
+}
+
+.result {
+    flex-grow: 1;
+    border: solid 1px black;
+    margin: 5px 5px;
+    text-align: center;
+}
+
+.resultTitle {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+textarea {
+    width:90%;
+    margin: 5px 5px;
+}
