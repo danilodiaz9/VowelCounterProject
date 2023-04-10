@@ -16,12 +16,18 @@
     
     <main class="main">
         <div class="userInput">
-            <textarea name="userText" id="userText" placeholder="Write your text here..." rows="5" cols="15"></textarea>
+            <textarea id="userText" placeholder="Write your text here..." rows="5" cols="15"></textarea>
+        
+            <div class="buttons">    
+                <button type="button" id="submitButton" >Submit</button>
+                <button type="button" id="resetButton" >Reset</button>
+            </div>
         </div>
         <div class="result">
             <div class="resultTitle">Result:</div>
-            <div class="resultValue"></div>
+            <div class="resultValue1"><p id="resultValue"></p></div>
         </div>
     </main>
+    <script src="./main.js"></script>
 </body>
 </html>
